@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LullybyLoe | 中国古代艺术史 · 外销瓷学术史</title>
+  <meta name="description" content="史迪奇（Stitch）— 中国古代艺术史、外销瓷学术史、公众人文教育" />
+  <link rel="icon" href="assets/favicon.ico" />
+  <style>
+    /* ===== Morandi Palette & Theme ===== */
+    :root{
+      /* Morandi-inspired muted tones */
+      --m-ink: #2F3437;         /* 深墨灰（文字主色） */
+      --m-ink-soft:#4b5155;
+      --m-bg: #F5F4F2;          /* 温柔偏灰米色背景 */
+      --m-card: #FFFFFF;        /* 卡片白 */
+      --m-edge: #E4E1DE;        /* 边框/分隔 */
+
+      --m-sage: #C8CFC2;        /* 灰绿（按钮/链接 hover） */
+      --m-rose: #D7C2C4;        /* 灰粉（强调） */
+      --m-blue: #C5CDD6;        /* 灰蓝（链接） */
+      --m-taupe:#CFC5B8;        /* 灰褐（次强调） */
+
+      --radius: 16px;
+      --shadow: 0 10px 24px rgba(0,0,0,.06);
+      --shadow-soft: 0 6px 16px rgba(0,0,0,.04);
+      --maxw: 980px;
+    }
+
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--m-bg);color:var(--m-ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif}
+    a{color:#334; text-decoration:none; border-bottom:1px solid rgba(0,0,0,0.08);}
+    a:hover{color:#222; background:linear-gradient(transparent 60%, rgba(197,205,214,.35) 0)}
+
+    /* ===== Layout ===== */
+    header{position:sticky;top:0;backdrop-filter:saturate(120%) blur(8px); background:rgba(245,244,242,.8);border-bottom:1px solid var(--m-edge); z-index:10}
+    .nav{max-width:var(--maxw);margin:0 auto;display:flex;gap:16px;align-items:center;justify-content:space-between;padding:12px 16px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:700}
+    .brand .dot{width:12px;height:12px;border-radius:50%;background:var(--m-rose);box-shadow:0 0 0 4px rgba(215,194,196,.25)}
+    .nav a{border:0;color:#2f3437}
+    .menu{display:flex;gap:14px;flex-wrap:wrap}
+    .menu a{padding:6px 10px;border-radius:10px}
+    .menu a:hover{background:rgba(200,207,194,.35)}
+
+    main{max-width:var(--maxw);margin:24px auto;padding:0 16px;display:grid;gap:24px}
+
+    .hero{display:grid;gap:8px;padding:24px;border-radius:var(--radius);background:var(--m-card);box-shadow:var(--shadow)}
+    .hero h1{margin:0;font-size:28px;line-height:1.25}
+    .subtitle{color:var(--m-ink-soft)}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+    .tag{padding:4px 10px;border-radius:999px;background:linear-gradient(180deg, #fff, #F7F6F4);border:1px solid var(--m-edge);font-size:13px;color:#42464a}
+
+    .grid{display:grid;grid-template-columns:1fr;gap:24px}
+    @media(min-width:900px){.grid{grid-template-columns:1fr 1fr}}
+
+    .card{background:var(--m-card);border:1px solid var(--m-edge);border-radius:var(--radius);box-shadow:var(--shadow-soft);padding:18px}
+    .card h2{margin:0 0 8px 0;font-size:20px}
+    .card h3{margin:12px 0 6px 0;font-size:16px}
+    .list{margin:0;padding-left:18px}
+
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:12px;border:1px solid var(--m-edge);background:linear-gradient(180deg,#fff,#F7F6F4);cursor:pointer}
+    .btn:hover{background:linear-gradient(180deg,#fff,#EEF0ED)}
+    .btn.primary{background:linear-gradient(180deg,#fff,#EDEFEF);border-color:#cfd6df}
+
+    footer{max-width:var(--maxw);margin:40px auto;padding:12px 16px;color:#666;border-top:1px solid var(--m-edge)}
+
+    /* Section anchors */
+    section{scroll-margin-top:84px}
+
+    /* Small utilities */
+    .muted{color:#666}
+    .pill{display:inline-block;padding:2px 8px;border-radius:999px;background:rgba(197,205,214,.35);font-size:12px}
+  </style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="brand">
+      <div class="dot" aria-hidden="true"></div>
+      <a href="/"><span>LullybyLoe</span></a>
+    </div>
+    <nav class="menu" aria-label="Primary">
+      <a href="#about">关于</a>
+      <a href="#research">研究</a>
+      <a href="#publications">发表与译著</a>
+      <a href="#teaching">教学与传播</a>
+      <a href="#projects">项目</a>
+      <a href="#media">媒体</a>
+      <a href="cv.pdf">CV</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="about">
+    <h1>史迪奇（Stitch）</h1>
+    <p class="subtitle">中国古代艺术史｜外销瓷学术史｜公众人文教育</p>
+    <div class="tags">
+      <span class="tag">Historiography of Export Porcelain</span>
+      <span class="tag">Asian Art</span>
+      <span class="tag">Museum & Public Humanities</span>
+      <span class="tag">Translation & Outreach</span>
+    </div>
+    <div class="cta">
+      <a class="btn primary" href="mailto:you@example.com">联系我</a>
+      <a class="btn" href="#publications">查看发表/译著</a>
+    </div>
+  </section>
+
+  <section class="grid" id="research">
+    <article class="card">
+      <h2>研究方向</h2>
+      <ul class="list">
+        <li>中国古代外销瓷研究的学术史：概念/术语谱系、学科转向与跨语际网络。</li>
+        <li>东亚艺术：清代/藏传佛教艺术、日本平安—镰仓及中世纪晚期艺术。</li>
+        <li>公共人文：面向公众的艺术与美学教育、博物馆解读与传播。</li>
+      </ul>
+    </article>
+    <article class="card">
+      <h2>最新动态</h2>
+      <ul class="list">
+        <li><span class="pill">2025-09</span> 完成《The Art of Asia》三章中文翻译（约 53,000 字）。</li>
+        <li><span class="pill">2024-09</span> 红色题材微电影实践结项，提交调研报告与成片发布。</li>
+        <li><span class="pill">2018-07</span> 徽州古镇文化田野调查（歙县）。</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="grid" id="publications">
+    <article class="card">
+      <h2>发表与译著（节选）</h2>
+      <h3>译著</h3>
+      <ul class="list">
+        <li><em>The Art of Asia: History, Meaning and Styles</em>（常青著，Kendall Hunt，2015）— 中文译者（指定三章，约 53,000 字）：清代佛教艺术；西藏地区藏传佛教艺术；西夏王国藏式佛教艺术；日本平安绘画；镰仓佛教艺术；日本 1336–1573 年绘画/建筑/茶道/陶器。</li>
+      </ul>
+      <h3>报告/资料</h3>
+      <ul class="list">
+        <li>《徽州古镇文化探微——以歙县古建筑与歙砚物质文化遗产为例》调研报告（学生负责人/汇报人）。</li>
+        <li>《江苏红色文化微电影制片实践》最终报告与答辩 PPT（主笔）。</li>
+      </ul>
+    </article>
+
+    <article class="card" id="teaching">
+      <h2>教学与传播</h2>
+      <ul class="list">
+        <li>History Teacher & Homeroom Teacher（高中部）：中国/世界史课程；班级导师；跨学科项目。</li>
+        <li>Volunteer Museum Educator（Wang Jiaxiang Memorial Park and Museum）：导览与解读、公众教育项目。</li>
+        <li>Faculty Advisor for Student Clubs：射箭社、历史社（讲座、训练、海报设计）。</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="grid" id="projects">
+    <article class="card">
+      <h2>项目（选）</h2>
+      <ul class="list">
+        <li>红色题材微电影：实地调研→剧本→拍摄→传播（演员/导演助理）。</li>
+        <li>徽派建筑装饰附件本科学位论文（在研/已结题）。</li>
+        <li>方志文献来源考证（助研）：阅读、翻译、版本勘校与书目元数据整理。</li>
+      </ul>
+    </article>
+
+    <article class="card" id="media">
+      <h2>媒体与兴趣</h2>
+      <ul class="list">
+        <li>校园官方媒体摄影：学术活动、文化项目与校园生活的视觉记录。</li>
+        <li>贝斯演出：校内外 Live 合作与公众交流。</li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <small>© <span id="y"></span> LullybyLoe · <a href="mailto:you@example.com">you@example.com</a></small>
+</footer>
+
+<script>
+  document.getElementById('y').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
